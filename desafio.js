@@ -10,6 +10,13 @@ let clienteLilit = [
     {produto: 'Salto agulha 39', valor: 250.0}, 
     {produto: 'Tênis casual preto', valor: 120.0}, 
     {produto: 'meia calça transparente', valor: 30.0}]
+let clienteAmanda = [
+    {produto: 'Calça jeans clara', valor: 130.0},
+    {produto: 'Blusa simples', valor: 35.0}]
+let clienteJu = [
+    {produto: 'Tênis casual preto', valor: 120.0}]
+
+
 
 function realizarCompra(comprasDaCliente) {
     let valorTotal = 0 // variável com a soma de todos os valores dos produtos sem desconto
@@ -61,3 +68,6 @@ function realizarCompra(comprasDaCliente) {
 }
 
 realizarCompra(clienteLilit)
+realizarCompra(clienteAmanda)
+realizarCompra(clienteJu)
+
